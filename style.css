@@ -1,9 +1,10 @@
 body{
     margin:0;
-    padding-top: 900px;
     text-align: center;
+    padding-top: 50px;
     font-family: fantasy;
     background-image: linear-gradient(to right, rgb(0, 255, 247) , rgb(229, 37, 239) ,  rgb(239, 37, 138) ,  rgb(155, 37, 239));
+
 }
 .menu{
     position: fixed;
@@ -12,6 +13,8 @@ body{
     top: 0px;
     z-index: 10;
     background: white;
+    font-size: 50px;
+    
 }
 .links{
     padding-top: 5px;
@@ -26,14 +29,41 @@ body{
     font-family: fantasy;
     text-align: top;
 }
-#cakes{
+#Cakes{
     font-family: fantasy;
 }
-#cupcakes{
+#Cupcakes{
+    font-family: fantasy;
+}
+#Muffins{
+    font-family: fantasy;
+}
+#Pies{
+    font-family: fantasy;
+}
+#Donut{
+    font-family: fantasy;
+}
+#Cookies{
+    font-family: fantasy;
+}
+#Slushies{
+    font-family: fantasy;
+}
+#Coffee{
     font-family: fantasy;
 }
 .carousel-inner p{
     margin-top: 15px;
     color: white;
-    font-size: 20px;
+}
+#see_cart{
+    background-color: rgb(150, 95, 137);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+}
+button{
+    font-size: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    bottom: 0;
 }

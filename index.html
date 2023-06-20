@@ -24,6 +24,7 @@
         </ul>
                 <section id="Welcome">
                     <div class="parallax-inner">
+                        <br>
                         <h1>Welcome to Ammu's Cafe.</h1>
                         <h2>Our chat bot will be there to help you the whole way through.</h2>
                         <h3>we hope you enjoy your visit to this website.</h3>
@@ -32,20 +33,8 @@
                 <br>
                 <br>
                 <br>
-                <img src="Cafe logo.png" width="250px" height="250px">
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
+                <img src="Cafe logo.png" width="250" height="250">
+                
                 <br>
                 <br>
                 <br>
@@ -58,45 +47,46 @@
                 <section id="Cupcakes">
                 <h2>Here are some of our Cupcakes.</h2>
                 <h5>press the add to cart butoon to add to cart.</h5>
+                <h3>please press the arrows for more options</h3>
                 <div id="myCarousel" class="carousel slide">
                     <center>
                         <div class="carousel-inner">
                            
                            <div class="item active">
                                <h3>Caremel Cupcakes</h3>
-                               <img src="caramel cupcake.jpeg" width="250px" height="250px">
+                               <img src="caramel cupcake.jpeg" width="250" height="250">
                                <h4>$2 each</h4>
-                               <button class="add_cart btn btn-warning" onclick="add_cart()">Add to cart</button>
+                               <button class="add_cart btn btn-warning" id="add_cart" onclick="add_cart()">Add to cart</button>
                            </div>
                            <div class="item">
-                                <h3>Chocolate Cupcakes Cupcakes</h3>
-                                <img src="chocolate cupcakes.jpeg" width="250px" height="250px">
+                                <h3>Chocolate Cupcakes</h3>
+                                <img src="chocolate cupcakes.jpeg" width="250" height="250">
                                 <h4>$2 each</h4>
-                                <button class="add_cart btn btn-warning" onclick="add_cart()">Add to cart</button> 
+                                <button class="add_cart btn btn-warning" id="add_cart" onclick="add_cart()">Add to cart</button> 
                             </div>
                             <div class="item">
                                 <h3>Mint Choc Chip Cupcakes</h3>
                                 <img src="mint cupcake.jpeg" width="250px" height="250px">
                                 <h4>$2 each</h4>
-                                <button class="add_cart btn btn-warning" onclick="add_cart()">Add to cart</button> 
+                                <button class="add_cart btn btn-warning" id="add_cart" onclick="add_cart()">Add to cart</button> 
                             </div>
                             <div class="item">
                                 <h3>Oreo Cupcakes</h3>
                                 <img src="oreo cupcake.jpeg" width="250px" height="250px">
                                 <h4>$2 each</h4>
-                                <button class="add_cart btn btn-warning" onclick="add_cart()">Add to cart</button> 
+                                <button class="add_cart btn btn-warning" id="add_cart" onclick="add_cart()">Add to cart</button> 
                             </div>
                             <div class="item">
                                 <h3>Strawberry Cupcakes</h3>
                                 <img src="strawberry cupcake.jpeg" width="250px" height="250px">
                                 <h4>$2 each</h4>
-                                <button class="add_cart btn btn-warning" onclick="add_cart()">Add to cart</button> 
+                                <button class="add_cart btn btn-warning" id="add_cart" onclick="add_cart()">Add to cart</button> 
                             </div>
                             <div class="item">
                                 <h3>Vanilla and blueberry Cupcakes</h3>
                                 <img src="vanilla cupcake.jpeg" width="250px" height="250px">
                                 <h4>$2 each</h4>
-                                <button class="add_cart btn btn-warning" onclick="add_cart()">Add to cart</button> 
+                                <button class="add_cart btn btn-warning" id="add_cart" onclick="add_cart()">Add to cart</button> 
                             </div>
                         </div>
                         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -122,6 +112,7 @@
             <section id="Cakes">
                 <h2>Here are some of our best Cakes.</h2>
                 <h5>press the add to cart butoon to add to cart.</h5>
+                <h3>please press the arrows for more options</h3>
                 <div id="Cake" class="carousel slide">
                     <center>
                         <div class="carousel-inner">
@@ -129,38 +120,38 @@
                            <div class="item active">
                                <h3>Blueberry Cakes</h3>
                                <img src="blueberry cake.jpeg" width="250px" height="250px">
-                               <h4>$5 each</h4>
-                               <button class="add_cart btn btn-warning" onclick="add_cart()">Add to cart</button>
+                               <h4>$20 each</h4>
+                               <button class="add_cart btn btn-warning cake"  id="Blueberry_cake" onclick="add_cart(this.id,'cake')" value="0">Add to cart</button>
                            </div>
                            <div class="item">
                                 <h3>Chocolate Cakes</h3>
                                 <img src="chocolate cake.jpeg" width="250px" height="250px">
-                                <h4>$5 each</h4>
-                                <button class="add_cart btn btn-warning" onclick="add_cart()">Add to cart</button> 
+                                <h4>$20 each</h4>
+                                <button class="add_cart btn btn-warning" id="chocolate_cake" onclick="add_cart(this.id,'cake')">Add to cart</button> 
                             </div>
                             <div class="item">
                                 <h3>Mango Cakes</h3>
                                 <img src="mango cake.jpeg" width="250px" height="250px">
-                                <h4>$5 each</h4>
-                                <button class="add_cart btn btn-warning" onclick="add_cart()">Add to cart</button> 
+                                <h4>$20 each</h4>
+                                <button class="add_cart btn btn-warning" id="mango_cake" onclick="add_cart(this.id,'cake')">Add to cart</button> 
                             </div>
                             <div class="item">
-                                <h3>Strawberry Cupcakes</h3>
+                                <h3>Strawberry Cakes</h3>
                                 <img src="strawberry cake.jpeg" width="250px" height="250px">
-                                <h4>$5 each</h4>
-                                <button class="add_cart btn btn-warning" onclick="add_cart()">Add to cart</button> 
+                                <h4>$20 each</h4>
+                                <button class="add_cart btn btn-warning" id="strawberry_cake" onclick="add_cart(this.id,'cake')">Add to cart</button> 
                             </div>
                             <div class="item">
                                 <h3>Tropical Cakes</h3>
                                 <img src="tropical cake.jpeg" width="250px" height="250px">
-                                <h4>$5 each</h4>
-                                <button class="add_cart btn btn-warning" onclick="add_cart()">Add to cart</button> 
+                                <h4>$20 each</h4>
+                                <button class="add_cart btn btn-warning" id="tropical_cake" onclick="add_cart(this.id,'cake')">Add to cart</button> 
                             </div>
                             <div class="item">
                                 <h3>Vanilla Cakes</h3>
                                 <img src="vanilla cke.jpeg" width="250px" height="250px">
-                                <h4>$5 each</h4>
-                                <button class="add_cart btn btn-warning" onclick="add_cart()">Add to cart</button> 
+                                <h4>$20 each</h4>
+                                <button class="add_cart btn btn-warning" id="cake" onclick="add_cart(this.id,'cake')">Add to cart</button> 
                             </div>
                         </div>
                         <a class="left carousel-control" href="#Cake" data-slide="prev">
@@ -172,6 +163,417 @@
                     </center>
                 </div>
             </section>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <section id="Muffins">
+                <h2>Here are some of our best muffins.</h2>
+                <h5>press the add to cart butoon to add to cart.</h5>
+                <h3>please press the arrows for more options</h3>
+                <div id="muffin" class="carousel slide">
+                    <center>
+                        <div class="carousel-inner">
+                           
+                           <div class="item active">
+                               <h3>Blueberry Muffins</h3>
+                               <img src="blueberry muffin.jpeg" width="250" height="250">
+                               <h4>$3 each</h4>
+                               <button class="add_cart btn btn-warning" id="add_cart" onclick="add_cart()">Add to cart</button>
+                           </div>
+                           <div class="item">
+                                <h3>Chocolate Muffins</h3>
+                                <img src="choc muffin.webp" width="250" height="250">
+                                <h4>$3 each</h4>
+                                <button class="add_cart btn btn-warning" id="add_cart" onclick="add_cart()">Add to cart</button> 
+                            </div>
+                            <div class="item">
+                                <h3>Coconut Muffins</h3>
+                                <img src="coconut muffins.jpeg" width="250" height="250">
+                                <h4>$3 each</h4>
+                                <button class="add_cart btn btn-warning" id="add_cart" onclick="add_cart()">Add to cart</button> 
+                            </div>
+                            <div class="item">
+                                <h3>Strawberry Muffins</h3>
+                                <img src="strawberry muffins.jpeg" width="250" height="250">
+                                <h4>$3 each</h4>
+                                <button class="add_cart btn btn-warning" id="add_cart" onclick="add_cart()">Add to cart</button> 
+                            </div>
+                            <div class="item">
+                                <h3>Rasberry Muffins</h3>
+                                <img src="rassberry muffin.jpeg" width="250" height="250">
+                                <h4>$3 each</h4>
+                                <button class="add_cart btn btn-warning" id="add_cart" onclick="add_cart()">Add to cart</button> 
+                            </div>
+                            <div class="item">
+                                <h3>Apple and cinnamon Muffins</h3>
+                                <img src="apple and cinnamon muffins.webp" width="250" height="250">
+                                <h4>$3 each</h4>
+                                <button class="add_cart btn btn-warning" id="add_cart" onclick="add_cart()">Add to cart</button> 
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#muffin" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                          </a>
+                          <a class="right carousel-control" href="#muffin" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                          </a>
+                    </center>
+                </div>
+            </section>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <section id="Pies">
+                <h2>Here are some of our best Pies.</h2>
+                <h5>press the add to cart butoon to add to cart.</h5>
+                <h3>please press the arrows for more options</h3>
+                <div id="pie" class="carousel slide">
+                    <center>
+                        <div class="carousel-inner">
+                           
+                           <div class="item active">
+                               <h3>Blueberry Pie</h3>
+                               <img src="blueberry pie.jpeg" width="250" height="250">
+                               <h4>$15 each</h4>
+                               <button class="add_cart btn btn-warning" id="add_cart" onclick="add_cart()">Add to cart</button>
+                           </div>
+                           <div class="item">
+                                <h3>Pumpkin Pie</h3>
+                                <img src="pumpkin pie.webp" width="250" height="250">
+                                <h4>$15 each</h4>
+                                <button class="add_cart btn btn-warning" id="add_cart" onclick="add_cart()">Add to cart</button> 
+                            </div>
+                            <div class="item">
+                                <h3>Chicken Pie</h3>
+                                <img src="chicken pie.jpeg" width="250" height="250">
+                                <h4>$15 each</h4>
+                                <button class="add_cart btn btn-warning" id="add_cart" onclick="add_cart()">Add to cart</button> 
+                            </div>
+                            <div class="item">
+                                <h3>Strawberry Pie</h3>
+                                <img src="strawberry pie.jpeg" width="250" height="250">
+                                <h4>$15 each</h4>
+                                <button class="add_cart btn btn-warning" id="add_cart" onclick="add_cart()">Add to cart</button> 
+                            </div>
+                            <div class="item">
+                                <h3>Beef Pie</h3>
+                                <img src="beef pie.jpeg" width="250" height="250">
+                                <h4>$15 each</h4>
+                                <button class="add_cart btn btn-warning" id="add_cart" onclick="add_cart()">Add to cart</button> 
+                            </div>
+                            <div class="item">
+                                <h3>Apple Pie</h3>
+                                <img src="apple pie.jpeg" width="250" height="250">
+                                <h4>$15 each</h4>
+                                <button class="add_cart btn btn-warning" id="add_cart" onclick="add_cart()">Add to cart</button> 
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#pie" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                          </a>
+                          <a class="right carousel-control" href="#pie" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                          </a>
+                    </center>
+                </div>
+            </section>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <section id="Donuts">
+                <h2>Here are some of our best Donuts.</h2>
+                <h5>press the add to cart button to add to cart.</h5>
+                <h3>please press the arrows for more options</h3>
+                <div id="donut" class="carousel slide">
+                    <center>
+                        <div class="carousel-inner">
+                           
+                           <div class="item active">
+                               <h3>caremal glazed Donuts</h3>
+                               <img src="caramel glazed donuts.jpeg" width="250" height="250">
+                               <h4>$8 each</h4>
+                               <button class="add_cart btn btn-warning" id="add_cart" onclick="add_cart()">Add to cart</button>
+                           </div>
+                           <div class="item">
+                                <h3>Chocolate Donuts</h3>
+                                <img src="chocolate donuts.jpeg" width="250" height="250">
+                                <h4>$8 each</h4>
+                                <button class="add_cart btn btn-warning" id="add_cart" onclick="add_cart()">Add to cart</button> 
+                            </div>
+                            <div class="item">
+                                <h3>Jam Donuts</h3>
+                                <img src="jelly and jam donuts.jpeg" width="250" height="250">
+                                <h4>$8 each</h4>
+                                <button class="add_cart btn btn-warning" id="add_cart" onclick="add_cart()">Add to cart</button> 
+                            </div>
+                            <div class="item">
+                                <h3>Lemon Donuts</h3>
+                                <img src="lemon donuts.jpeg" width="250" height="250">
+                                <h4>$8 each</h4>
+                                <button class="add_cart btn btn-warning" id="add_cart" onclick="add_cart()">Add to cart</button> 
+                            </div>
+                            <div class="item">
+                                <h3>Christmas Donuts</h3>
+                                <img src="reigndeer donuts.jpeg" width="250" height="250">
+                                <h4>$8 each</h4>
+                                <button class="add_cart btn btn-warning" id="add_cart" onclick="add_cart()">Add to cart</button> 
+                            </div>
+                            <div class="item">
+                                <h3>Strawberry Donuts</h3>
+                                <img src="strawberry donuts.jpeg" width="250" height="250">
+                                <h4>$10 each</h4>
+                                <button class="add_cart btn btn-warning" id="add_cart" onclick="add_cart()">Add to cart</button> 
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#donut" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                          </a>
+                          <a class="right carousel-control" href="#donut" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                          </a>
+                    </center>
+                </div>
+            </section>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <section id="Cookies">
+                <h2>Here are some of our best Cookies.</h2>
+                <h5>press the add to cart button to add to cart.</h5>
+                <h3>please press the arrows for more options</h3>
+                <div id="cookie" class="carousel slide">
+                    <center>
+                        <div class="carousel-inner">
+                           
+                           <div class="item active">
+                               <h3>Chocolate and Vanilla twirl Cookies</h3>
+                               <img src="choc and vanilla twirl cookies.jpeg" width="250" height="250">
+                               <h4>$12 each</h4>
+                               <button class="add_cart btn btn-warning" id="add_cart" onclick="add_cart()">Add to cart</button>
+                           </div>
+                           <div class="item">
+                                <h3>Chocolate Fudge Cookies</h3>
+                                <img src="choc fudge cookies.jpeg" width="250" height="250">
+                                <h4>$12 each</h4>
+                                <button class="add_cart btn btn-warning" id="add_cart" onclick="add_cart()">Add to cart</button> 
+                            </div>
+                            <div class="item">
+                                <h3>Red Velvet Cookies/h3>
+                                <img src="red velvet cookies.jpeg" width="250" height="250">
+                                <h4>$12 each</h4>
+                                <button class="add_cart btn btn-warning" id="add_cart" onclick="add_cart()">Add to cart</button> 
+                            </div>
+                            <div class="item">
+                                <h3>Salted Caremal Cookies</h3>
+                                <img src="salted caramel cookies.jpeg" width="250" height="250">
+                                <h4>$12 each</h4>
+                                <button class="add_cart btn btn-warning" id="add_cart" onclick="add_cart()">Add to cart</button> 
+                            </div>
+                            <div class="item">
+                                <h3>Strawberry Jam Drop Cookies</h3>
+                                <img src="strawberry jam drops.jpeg" width="250" height="250">
+                                <h4>$12 each</h4>
+                                <button class="add_cart btn btn-warning" id="add_cart" onclick="add_cart()">Add to cart</button> 
+                            </div>
+                            <div class="item">
+                                <h3>White choc Cookies</h3>
+                                <img src="white choc cookies.jpeg" width="250" height="250">
+                                <h4>$12 each</h4>
+                                <button class="add_cart btn btn-warning" id="add_cart" onclick="add_cart()">Add to cart</button> 
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#cookie" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                          </a>
+                          <a class="right carousel-control" href="#cookie" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                          </a>
+                    </center>
+                </div>
+            </section>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <section id="Slushies">
+                <h2>Here are some of our best Slushies.</h2>
+                <h5>press the add to cart button to add to cart.</h5>
+                <h3>please press the arrows for more options</h3>
+                <div id="slushies" class="carousel slide">
+                    <center>
+                        <div class="carousel-inner">
+                           
+                           <div class="item active">
+                               <h3>Lemon Slushies</h3>
+                               <img src="lemon slushie.jpeg" width="250" height="250">
+                               <h4>$5 each</h4>
+                               <button class="add_cart btn btn-warning" id="add_cart" onclick="add_cart()">Add to cart</button>
+                           </div>
+                           <div class="item">
+                                <h3>Coke Slushies</h3>
+                                <img src="coke slushie.jpeg" width="250" height="250">
+                                <h4>$5 each</h4>
+                                <button class="add_cart btn btn-warning" id="add_cart" onclick="add_cart()">Add to cart</button> 
+                            </div>
+                            <div class="item">
+                                <h3>Peach Slushies</h3>
+                                <img src="peach slushie.jpeg" width="250" height="250">
+                                <h4>$5 each</h4>
+                                <button class="add_cart btn btn-warning" id="add_cart" onclick="add_cart()">Add to cart</button> 
+                            </div>
+                            <div class="item">
+                                <h3>Pineapple Slushies</h3>
+                                <img src="pineapple slushie.jpeg" width="250" height="250">
+                                <h4>$5 each</h4>
+                                <button class="add_cart btn btn-warning" id="add_cart" onclick="add_cart()">Add to cart</button> 
+                            </div>
+                            <div class="item">
+                                <h3>Rasberry Slushies</h3>
+                                <img src="rassberry slushie.webp" width="250" height="250">
+                                <h4>$5 each</h4>
+                                <button class="add_cart btn btn-warning" id="add_cart" onclick="add_cart()">Add to cart</button> 
+                            </div>
+                            <div class="item">
+                                <h3>Tropical Slushies</h3>
+                                <img src="tropical slushie.jpeg" width="250" height="250">
+                                <h4>$5 each</h4>
+                                <button class="add_cart btn btn-warning" id="add_cart" onclick="add_cart()">Add to cart</button> 
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#slushies" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                          </a>
+                          <a class="right carousel-control" href="#slushies" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                          </a>
+                    </center>
+                </div>
+            </section>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <section id="Coffee">
+                <h2>Here are some of our best Coffee/ Milkshakes/ Frappes.</h2>
+                <h5>press the add to cart button to add to cart.</h5>
+                <h3>please press the arrows for more options</h3>
+                <div id="coffee" class="carousel slide">
+                    <center>
+                        <div class="carousel-inner">
+                           
+                           <div class="item active">
+                               <h3>Caremal Milkshakes</h3>
+                               <img src="caramel milkshake.jpeg" width="250" height="250">
+                               <h4>$10 each</h4>
+                               <button class="add_cart btn btn-warning" id="add_cart" onclick="add_cart()">Add to cart</button>
+                           </div>
+                           <div class="item">
+                                <h3>Caremal Frappe</h3>
+                                <img src="caremal frappe.jpeg" width="250" height="250">
+                                <h4>$10 each</h4>
+                                <button class="add_cart btn btn-warning" id="add_cart" onclick="add_cart()">Add to cart</button> 
+                            </div>
+                            <div class="item">
+                                <h3>Chocolate Frappe</h3>
+                                <img src="chocolate frappe.jpeg" width="250" height="250">
+                                <h4>$10 each</h4>
+                                <button class="add_cart btn btn-warning" id="add_cart" onclick="add_cart()">Add to cart</button> 
+                            </div>
+                            <div class="item">
+                                <h3>Oreo Frappe</h3>
+                                <img src="oreo frappe.jpeg" width="250" height="250">
+                                <h4>$10 each</h4>
+                                <button class="add_cart btn btn-warning" id="add_cart" onclick="add_cart()">Add to cart</button> 
+                            </div>
+                            <div class="item">
+                                <h3>Strawberry Frappe</h3>
+                                <img src="strawberry frappe.jpeg" width="250" height="250">
+                                <h4>$10 each</h4>
+                                <button class="add_cart btn btn-warning" id="add_cart" onclick="add_cart()">Add to cart</button> 
+                            </div>
+                            <div class="item">
+                                <h3>Vanilla Frappe</h3>
+                                <img src="vanilla frappe.webp" width="250" height="250">
+                                <h4>$10 each</h4>
+                                <button class="add_cart btn btn-warning" id="add_cart" onclick="add_cart()">Add to cart</button> 
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#coffee" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                          </a>
+                          <a class="right carousel-control" href="#coffee" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                          </a>
+                    </center>
+                </div>
+            </section>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <center>
+                <button class="btn btn-danger" id="see_cart" onclick="See_cart()">Click here to see your cart!!!</button>
+            </center>
+            
+            
+
+
+
 
                 
 
